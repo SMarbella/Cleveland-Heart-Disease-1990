@@ -57,6 +57,7 @@ https://archive.ics.uci.edu/dataset/45/heart+disease
 
 ## Data Exploration
 This is a quick summary of heart disease data from Cleveland in 1988. It shows the maximum, minimum, quartiles, median, and mean for most variables from the table. They give a clue about the ranges from each of the variables.
+
 ![Image](https://github.com/SMarbella/Cleveland-Heart-Disease-1990/blob/main/Data%20Exploration.png)
 ![Image](https://github.com/SMarbella/Cleveland-Heart-Disease-1990/blob/main/Data%20Exploration%20ggpairs.png)
 
