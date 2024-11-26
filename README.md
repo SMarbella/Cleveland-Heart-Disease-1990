@@ -1,5 +1,5 @@
 # Heart Disease in Cleveland in 1990
-The programming language I used to generate my graphs and analytical results is R using R Studio.
+The programming language I used to generate my graphs and analytical results is R using R Studio. I used the boxplot graph to answer the public interest question.
 
 ## Data Information
 The data used for analysis came from the Cleveland Clinic Foundation in 1990. It includes medical information from patients that measure different levels of cholesterol, heart beats, blood sugar levels, and whether or not these patients have a heart disease.
