@@ -1,4 +1,5 @@
 # Heart Disease in Cleveland in 1990
+
 ## Data Information
 The data used for analysis came from the Cleveland Clinic Foundation in 1990. It includes medical information from patients that measure different levels of cholesterol, heart beats, blood sugar levels, and whether or not these patients have a heart disease.
 
@@ -27,38 +28,43 @@ Author: V.A. Medical Center, Long Beach and Cleveland Clinic Foundation:
 https://archive.ics.uci.edu/dataset/45/heart+disease
 
 ## Variables
-1. age: age in years
-2. sex: sex (1 = male; 0 = female)
-3. cp: chest pain type
+1. **age:** age in years
+2. **sex:** sex (1 = male; 0 = female)
+3. **cp:** chest pain type
       -- Value 1: typical angina
       -- Value 2: atypical angina
       -- Value 3: non-anginal pain
       -- Value 4: asymptomatic
-4. trestbps: resting blood pressure (in mm Hg on admission to the hospital)
-5. chol: serum cholesterol in mg/dl
-6. fbs: (fasting blood sugar > 120 mg/dl)  (1 = true; 0 = false)
-7. restecg: resting electrocardiographic results
+4. **trestbps:** resting blood pressure (in mm Hg on admission to the hospital)
+5. **chol:** serum cholesterol in mg/dl
+6. **fbs:** (fasting blood sugar > 120 mg/dl)  (1 = true; 0 = false)
+7. **restecg:** resting electrocardiographic results
       -- Value 0: normal
       -- Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
       -- Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
-8. thalach: maximum heart rate achieved
-9. exang: exercise induced angina (1 = yes; 0 = no)
-10. oldpeak = ST depression induced by exercise relative to rest
-11. slope: the slope of the peak exercise ST segment
+8. **thalach:** maximum heart rate achieved
+9. **exang:** exercise induced angina (1 = yes; 0 = no)
+10. **oldpeak** = ST depression induced by exercise relative to rest
+11. **slope:** the slope of the peak exercise ST segment
       -- Value 1: upsloping
       -- Value 2: flat
       -- Value 3: downsloping
-12. ca: number of major vessels (0-3) colored by flourosopy
-13. thal: 3 = normal; 6 = fixed defect; 7 = reversible defect
-14. num: diagnosis of heart disease (angiographic disease status)
+12. **ca:** number of major vessels (0-3) colored by flourosopy
+13. **thal:** 3 = normal; 6 = fixed defect; 7 = reversible defect
+14. **num:** diagnosis of heart disease (angiographic disease status)
       -- Value 0: < 50% diameter narrowing
       -- Value 1: > 50% diameter narrowing
 
 ## Data Exploration
 This is a quick summary of heart disease data from Cleveland in 1988. It shows the maximum, minimum, quartiles, median, and mean for most variables from the table. They give a clue about the ranges from each of the variables.
 
+![Image](https://github.com/SMarbella/Cleveland-Heart-Disease-1990/blob/main/Data%20Exploration.png)
+![Image](https://github.com/SMarbella/Cleveland-Heart-Disease-1990/blob/main/Data%20Exploration%20ggpairs.png)
+
 ## Plot
-I used this plot to answer my public interest question.
+The programming language I used to generate my graphs and analytical results is R using R Studio. I used the boxplot graph to answer the public interest question.
+
+![Image](https://github.com/SMarbella/Cleveland-Heart-Disease-1990/blob/main/Heart%20Disease%20Boxplot.png)
 
 ## Brief Summary
 How does serum cholesterol and fasting blood sugar affect number of positive heart disease diagnosis in Cleveland?
