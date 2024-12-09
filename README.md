@@ -66,7 +66,8 @@ According to the linear model, the intercept is the cholesterol level because th
 The fbs> 120 mg/dl variable represents the indicator that indicates if the blood sugar is greater than 120 mg/dl. The Estimate column for cholesterol levels indicates that most of its values lie at an average of 246.481 with a standard error of 3.229. The error means that the deviation from the average varies up to 3.229. The number of people with blood sugar > 120 mg/dl is has a higher average than cholesterol by 1.430. The average number of people with higher blood sugar is 247.911. The linear model says that the relationship between cholesterol levels and ppeople's blood sugar is not significant due to the high p-value.
 
 The linear model says that the relationship between cholesterol levels and blood sugar is not very significant because the correlation is very weak (Multiple R-squared: 9.685e-05).
-![Image](https://github.com/SMarbella/Cleveland-Heart-Disease-1990/blob/main/Linear%20Model.png)
+
+![Image]()
 
 ## Plot
 The programming language I used to generate my graphs and analytical results is R using R Studio. I used the boxplot graph to answer the public interest question.
