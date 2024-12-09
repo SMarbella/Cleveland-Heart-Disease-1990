@@ -67,7 +67,7 @@ The fbs> 120 mg/dl variable represents the indicator that indicates if the blood
 
 The linear model says that the relationship between cholesterol levels and blood sugar is not very significant because the correlation is very weak (Multiple R-squared: 9.685e-05).
 
-![Image]()
+![Image](https://github.com/SMarbella/Cleveland-Heart-Disease-1990/blob/main/Linear%20Model.png)
 
 ## Plot
 The programming language I used to generate my graphs and analytical results is R using R Studio. I used the boxplot graph to answer the public interest question.
