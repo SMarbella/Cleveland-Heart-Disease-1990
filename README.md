@@ -61,6 +61,13 @@ This is a quick summary of heart disease data from Cleveland in 1988. It shows t
 ![Image](https://github.com/SMarbella/Cleveland-Heart-Disease-1990/blob/main/Data%20Exploration.png)
 ![Image](https://github.com/SMarbella/Cleveland-Heart-Disease-1990/blob/main/Data%20Exploration%20ggpairs.png)
 
+According to the linear model, the intercept is the cholesterol level because the linear model function chooses the first column alphabetically. Residuals are the differences between the linear model's guess and the actual observation. The model underestimated the values by 121.91. The 1Q column indicates that 25% of the observations are smaller than -35.48. The median or middle of all the residuals indicates the the model underpredicts the average values by -5.48. The 3Q column indicates that 75% of all residuals are smaller than 28.52. The Max column is the largest positive residual, meaning that the model overestimated a value by 317.52.
+
+The fbs> 120 mg/dl variable represents the indicator that indicates if the blood sugar is greater than 120 mg/dl. The Estimate column for cholesterol levels indicates that most of its values lie at an average of 246.481 with a standard error of 3.229. The error means that the deviation from the average varies up to 3.229. The number of people with blood sugar > 120 mg/dl is has a higher average than cholesterol by 1.430. The average number of people with higher blood sugar is 247.911. The linear model says that the relationship between cholesterol levels and ppeople's blood sugar is not significant due to the high p-value.
+
+The linear model says that the relationship between cholesterol levels and blood sugar is not very significant because the correlation is very weak (Multiple R-squared: 9.685e-05).
+![Image](https://github.com/SMarbella/Cleveland-Heart-Disease-1990/blob/main/Linear%20Model.png)
+
 ## Plot
 The programming language I used to generate my graphs and analytical results is R using R Studio. I used the boxplot graph to answer the public interest question.
 
